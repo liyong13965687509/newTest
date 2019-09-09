@@ -43,7 +43,7 @@
     methods: {
       // 改变表格数据
       get() {
-        this.tableData = this.tableData.map((item) => {
+        this.tableData = this.tableData.map(() => {
           return {
             date: this.numDel(),
             name: this.numDel(),
